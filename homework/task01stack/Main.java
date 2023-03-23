@@ -1,4 +1,4 @@
-package stack;
+package homework.task01stack;
 
 public class Main {
     public static void main(String[] args) {

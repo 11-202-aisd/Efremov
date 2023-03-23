@@ -1,4 +1,4 @@
-package stack;
+package homework.task01stack;
 
 public class Queue<T> {
     private Stack<T> stack1;

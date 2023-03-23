@@ -1,4 +1,4 @@
-package stack;
+package homework.task01stack;
 
 public class Stack<T> {
     private int size;
@@ -13,7 +13,7 @@ public class Stack<T> {
 
     public void push(T item) {
         if (top == size - 1) {
-            throw new RuntimeException("stack.Stack is full");
+            throw new RuntimeException("homework.stack.Stack is full");
         }
         top++;
         array[top] = item;
@@ -21,7 +21,7 @@ public class Stack<T> {
 
     public T pop() {
         if (top == -1) {
-            throw new RuntimeException("stack.Stack is empty");
+            throw new RuntimeException("homework.stack.Stack is empty");
         }
         T item = (T) array[top];
         top--;
@@ -30,7 +30,7 @@ public class Stack<T> {
 
     public T peek() {
         if (top == -1) {
-            throw new RuntimeException("stack.Stack is empty");
+            throw new RuntimeException("homework.stack.Stack is empty");
         }
         return (T) array[top];
     }
