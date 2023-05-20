@@ -1,4 +1,4 @@
-package homework.task03binTree;
+package homework.PartMain.task04binTree;
 
 class Node {
     int data;

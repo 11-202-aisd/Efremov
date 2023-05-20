@@ -1,4 +1,4 @@
-package homework.task01stack;
+package homework.PartMain.task01stack;
 
 public class Stack<T> {
     private int size;

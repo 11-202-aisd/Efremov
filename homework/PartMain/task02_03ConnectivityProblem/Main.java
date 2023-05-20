@@ -1,4 +1,4 @@
-package homework.task02wires;
+package homework.PartMain.task02_03ConnectivityProblem;
 
 import java.util.Scanner;
 
